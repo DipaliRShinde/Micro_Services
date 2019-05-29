@@ -28,7 +28,7 @@ public class TrackControl {
         this.trackService = trackService;
     }
 
-    @RequestMapping(value = "track", method = RequestMethod.POST)
+    @RequestMapping(value = "trackcreate", method = RequestMethod.POST)
     public ResponseEntity<Track> saveTrack(@RequestBody Track track) {
         ResponseEntity responseEntity;
         try {
@@ -42,20 +42,20 @@ public class TrackControl {
         return responseEntity;
     }
 
-    @RequestMapping(value = "track", method = RequestMethod.GET)
+    @RequestMapping(value = "trackdisplay", method = RequestMethod.GET)
     public ResponseEntity<List<Track>> showAllTracks() {
         List<Track> track1 = trackService.showAllTrack();
         return new ResponseEntity<List<Track>>(track1, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "track", method = RequestMethod.PUT)
+    @RequestMapping(value = "trackupdate", method = RequestMethod.PUT)
     public ResponseEntity<String> updateTrack(@RequestBody Track track) throws TrackNotFoundException {
         ResponseEntity responseEntity;
         Track track1 = trackService.updateComment(track);
         return new ResponseEntity<String>("Successfully Updated", HttpStatus.OK);
     }
 
-    @RequestMapping(value = "track", method = RequestMethod.DELETE)
+    @RequestMapping(value = "trackdelete", method = RequestMethod.DELETE)
     public ResponseEntity<String> deleteTrack(@RequestBody Track track) throws TrackNotFoundException {
         ResponseEntity responseEntity;
         boolean answer = trackService.deleteTrack(track);

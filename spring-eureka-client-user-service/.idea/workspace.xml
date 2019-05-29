@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10db36df-738c-42a7-9eb8-43416630b7d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TrackService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-eureka-server/src/main/resources/bootsrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/main/java/com/stackroute/ZuulMicroService/ZuulMicroServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/main/java/com/stackroute/ZuulMicroService/filters/ErrorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/main/java/com/stackroute/ZuulMicroService/filters/PostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/main/java/com/stackroute/ZuulMicroService/filters/PreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/main/java/com/stackroute/ZuulMicroService/filters/RouteFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zuul-Micro-Service/src/test/java/com/stackroute/ZuulMicroService/ZuulMicroServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrackService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrackService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserService/src/main/java/com/stackroute/SpringBootTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UserService/src/main/java/com/stackroute/SpringBootTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserService/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../UserService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrackService/src/main/java/com/stackroute/Muzix/controller/TrackControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TrackService/src/main/java/com/stackroute/Muzix/controller/TrackControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrackService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TrackService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserService/src/main/java/com/stackroute/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UserService/src/main/java/com/stackroute/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../UserService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
