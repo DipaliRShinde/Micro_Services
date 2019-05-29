@@ -1,3 +1,6 @@
+server:
+  port: 8099
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 1
@@ -9,23 +12,21 @@ defaultZone: http://127.0.0.1:8761/eureka/
 
 spring:
   application:
-    name: user-service
+    name: track-service
 
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/UserService
 
-    username: root
-    password: Root@123
+  data:
+    mongodb:
+      repositories:
+        enabled: true
+
+      host: localhost
 
 
-  jpa:
-      hibernate:
-               ddl-auto: create-drop
-
-driverClassName: com.mysql.jdbc.Driver
+driverClassName: com.mongodb.jdbc.MongoDriver
 
 
 logging:
-    level:
-      com.stackroute.route: DEBUG
+  level:
+    com.stackroute.route: DEBUG
